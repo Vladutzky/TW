@@ -1,0 +1,46 @@
+{
+    "Circuite": [
+        {
+            "url": "C:\\Users\\Vlad\\Desktop\\Proiect TW\\express\\Jerez.jpg",
+            "nume": "Jerez de la frontiera",
+            "lungime": "3981",
+            "saptamana": "30",
+            "id": "5c7b6e1a-e36c-43d6-80b1-1f96172dc9c1"
+        },
+        {
+            "url": "C:\\Users\\Vlad\\Desktop\\Proiect TW\\express\\Lemans.jpg",
+            "nume": "Le mans 24H",
+            "lungime": "9100",
+            "saptamana": "44",
+            "id": "73d52c11-9d16-4fe2-a5e9-e58e6ba28c92"
+        },
+        {
+            "url": "C:\\Users\\Vlad\\Desktop\\Proiect TW\\express\\Mugello.jpg",
+            "nume": "Mugello",
+            "lungime": "3456",
+            "saptamana": "52",
+            "id": "446dd33e-18d9-464c-90bb-5a79aae5cc6c"
+        },
+        {
+            "url": "C:\\Users\\Vlad\\Desktop\\Proiect TW\\express\\Aragon.jpg",
+            "nume": "Aragon",
+            "lungime": "5302",
+            "saptamana": "13",
+            "id": "dee45775-996a-417d-a614-939de17acd4e"
+        },
+        {
+            "url": "C:\\Users\\Vlad\\Desktop\\Proiect TW\\express\\Losail.jpg",
+            "nume": "Test",
+            "lungime": "123123",
+            "saptamana": "1241",
+            "id": "6ccdf377-02f8-4dd3-b6ff-1d848b572949"
+        },
+        {
+            "url": "C:\\Users\\Vlad\\Desktop\\Proiect TW\\express\\Jerez.jpg",
+            "nume": "Jerez de la frontiera",
+            "lungime": "3981",
+            "saptamana": "30",
+            "id": "eebbbc9a-77a8-42d0-8bd3-3bf7a5517116"
+        }
+    ]
+}
