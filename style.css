@@ -614,6 +614,80 @@ rmain{
     justify-content: flex-end;
     flex-direction: column;
 }
+.track-holder1{  
+
+   background:  url("background1.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+   
+}
+
+.track-holder2{  
+
+    background:  url("background2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+
+ .track-holder3{  
+
+    background:  url("background3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+
+ .track-holder4{  
+
+    background:  url("background4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+
+ .track-holder5{  
+
+    background:  url("background5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+
+.poza-circuit{  
+
+width:50%;
+margin-left: auto;
+display: block;
+
+}
+.lungime-circuit{   
+    width:30%;
+    margin-right: auto;
+    display: block;
+font-size:300%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: white;
+
+}
+.saptamana-circuit{ 
+    width:30%;
+    margin-right: auto;
+    display: block;
+font-size:300%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: white;
+
+}
+.nume-circuit{  
+
+    width:30%;
+    margin-right: auto;
+    display: block;
+font-size:300%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: white;
+
+
+}
+
+
 /* aici incepe resize */
 
 @media(max-width:768px){

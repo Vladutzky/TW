@@ -1,0 +1,182 @@
+.duc1{
+    background:url("logoducati.png");
+    background-size: 60%;
+    background-position: center;
+    height: 75%;
+    width: 120%;  
+    background-repeat: no-repeat; 
+    margin-bottom: 40%;
+ 
+}    
+.duc2_2{
+    background:url("Bagnaia/Bagnaia2.jpg");
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.duc2_1{
+    
+    background:url("Bagnaia/Bagnaia.jpg");
+    background-size: 90%;
+    
+    background-repeat: no-repeat; 
+    
+}    
+.duc2_3{
+    
+    background:url("Bagnaia/Bagnaia3.jpg");
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    
+}    
+.duc2_4{
+    
+    background:url("Bagnaia/Bagnaia4.jpg");
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    
+}    
+.duc2_5{
+    
+    background:url("Bagnaia/Bagnaia5.jpg");
+    background-size: 90%;
+    
+    background-repeat: no-repeat; 
+    
+}    
+.duc3{
+    background:url("Miller.jpg");
+    background-size: 120%;
+    background-position: center;
+    height: 130%;
+    background-repeat: no-repeat; 
+    background-blend-mode: screen;
+    margin-bottom: 50%;
+    
+}   
+    
+.outer_ducati::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
+}    
+
+
+.outer_ducati{  
+    display: grid;
+    background: url("test1.jpg");   
+    
+    grid-template-areas: ". ducati1 ."
+                         "ducati2 . ducati3";
+}
+.duc1{
+    grid-area: ducati1;
+}
+.duc2_1{    
+    grid-area: ducati2;
+}
+.duc2_2{
+    grid-area: ducati2;
+}
+.duc2_3{    
+    grid-area: ducati2;
+}
+.duc2_4{    
+    grid-area: ducati2;
+}
+.duc2_5{    
+    grid-area: ducati2;
+}
+
+.duc3{
+    grid-area: ducati3;
+}
+
+.outer_yamaha{
+    background: url("test2.jpg");   
+    background-size: 100%;    
+    opacity: 0.5;
+}
+    
+     
+.outer_aprilia{ 
+    background: url("test3.jpg");   
+    background-size: 100%;    
+    opacity: 0.5;
+}
+     
+.outer_honda{ 
+    background: url("test4.jpg");   
+    background-size: 100%;    
+    opacity: 0.5;    
+}
+     
+
+     
+/* 
+    display:grid;
+    grid-template-areas: "ducati1 ."
+                           "ducati2 ducati3"; */
+                           
+    
+   
+   /* .outer_ducati :nth-child(1){
+   background-color:burlywood;
+   grid-area: "div1";
+   
+   
+   }
+    
+   .outer_ducati :nth-child(2){
+       background-color:chocolate;
+       grid-area: div2;
+       }
+   
+       .outer_ducati :nth-child(3){
+           background-color: orange;
+           grid-area: div3; */
+           
+    
+.main{  
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    /* grid-gap: 20px; */
+    
+grid-template-areas: "div1 div2"
+                     "div3 div4";
+    
+}  
+.main>div{  
+
+
+height:500px;
+
+}
+.outer_ducati{  
+    grid-area: div1;
+}
+.outer_yamaha{
+   grid-area:div2;
+
+}
+.outer_aprilia{ 
+    grid-area:div3;
+ 
+}
+.outer_honda{ 
+    grid-area:div4;
+ 
+}
+
+        
+
+
+       
+                      
